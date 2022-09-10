@@ -1,7 +1,20 @@
 #cs1300-gallery {
+  background-color: yellow;
+  padding: 2em;
+}
+
+body {
   background-color: lightblue;
 }
 
-.gallery-container {
+.gallery-item-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.l {
+  display: flex;
+  justify-content: center;
 }
